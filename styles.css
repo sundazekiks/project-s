@@ -14,21 +14,29 @@
     background-position: center;
 }
 
-.main-text, .special-msg, .imgs {
+.main-text, .special-holder, .imgs {
     position: absolute;
     width: fit-content;
 }
-
+.special-msg{
+    background-color: rgba(121, 118, 118, 0.3)
+}
 .main-text {
     top: 120px;
     left: 50px;
     font-size: 30px;
 }
 
-.special-msg {
+
+.special-holder {
     top: 200px;
     left: 50px;
     width: 50vw;
+    padding: 10px;
+    width: 250px;
+    height: 300px;
+    overflow: auto;
+    scroll-behavior: smooth;
 }
 
 .imgs {
