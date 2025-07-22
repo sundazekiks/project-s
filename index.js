@@ -7,15 +7,23 @@ const imgs = document.querySelectorAll("img");
 const imgLinks = [
     "images//1p.jpg",
     "images//2p.jpg",
-    "images//3p.jpg",
+    "images//1p.jpg",
     "images//4p.jpg",
     "images//5p.jpg"
+]
+
+const txts = [
+  "Our first date",
+  "FSY Last Day",
+  "Our Struggle up to the top",
+  "We talked about having a business",
+  "Our Temple Date"
 ]
 
 imgs.forEach(function(img, index) {
   img.addEventListener('click', () => {
     console.log("Hello World", index);
-
+    mainText.innerHTML = txts[index]
     mainBg.style.backgroundImage = `url(${imgLinks[index]})`;
     console.log(index)
     if (index == 3) {
