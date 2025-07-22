@@ -5,10 +5,10 @@ let specialMsg = document.querySelector(".special-msg");
 const imgs = document.querySelectorAll("img");
 
 const imgLinks = [
-    "images//1p.jpg",
+    "images//4p.jpg",
     "images//2p.jpg",
     "images//1p.jpg",
-    "images//4p.jpg",
+    "images//3p.jpg",
     "images//5p.jpg"
 ]
 
@@ -26,7 +26,7 @@ imgs.forEach(function(img, index) {
     mainText.innerHTML = txts[index]
     mainBg.style.backgroundImage = `url(${imgLinks[index]})`;
     console.log(index)
-    if (index == 3) {
+    if (index == 0) {
       mainBg.style.backgroundSize = "380px 300px";
     }
     else {
