@@ -18,8 +18,6 @@ imgs.forEach(function(img, index) {
 
     mainBg.style.backgroundImage = `url(${imgLinks[index]})`;
     mainBg.style.backgroundSize = "contain";
-    mainBg.style.BackgroundRepeat = "no-repeat";
-    
     
   });
   
