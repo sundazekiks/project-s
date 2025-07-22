@@ -17,7 +17,14 @@ imgs.forEach(function(img, index) {
     console.log("Hello World", index);
 
     mainBg.style.backgroundImage = `url(${imgLinks[index]})`;
-    
+    console.log(index)
+    if (index == 3) {
+      mainBg.style.backgroundSize = "380px 300px";
+    }
+    else {
+      mainBg.style.backgroundSize = "420px 920px ";
+    }
+
   });
   
 
