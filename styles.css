@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.main-text, .special-msg, .imgs {
+    position: absolute;
+    width: fit-content;
+}
+
+.main-text {
+    top: 120px;
+    left: 50px;
+    font-size: 25px;
+}
+
+.special-msg {
+    top: 200px;
+    left: 50px;
+    width: 50vw;
+}
+
+.imgs {
+    top: 500px;
+    text-align: center;
+}
+
+
+.imgs img {
+    width: 10%;
+    height: 5%;
+    transition: all 1s;
+}
+
+.imgs img:hover {
+    width: 12%;
+    height: 7%;
+}
+
+.imgs img .active{
+    width: 12%;
+}
