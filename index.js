@@ -17,7 +17,6 @@ imgs.forEach(function(img, index) {
     console.log("Hello World", index);
 
     mainBg.style.backgroundImage = `url(${imgLinks[index]})`;
-    mainBg.style.backgroundSize = "contain";
     
   });
   
