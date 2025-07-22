@@ -5,18 +5,18 @@ let specialMsg = document.querySelector(".special-msg");
 const imgs = document.querySelectorAll("img");
 
 const imgLinks = [
-    "images/1p.jpg",
-    "images/2p.jpg",
-    "images/3p.jpg",
-    "images/4p.jpg",
-    "images/5p.jpg"
+    "image//1.jpg",
+    "image//2.jpg",
+    "image//3.jpg",
+    "image//4.jpg",
+    "image//5.jpg"
 ]
 
 imgs.forEach(function(img, index) {
   img.addEventListener('click', () => {
     console.log("Hello World", index);
 
-    mainBg.style.backgroundImage = imgLinks[index];
+    mainBg.style.backgroundImage = `url(${imgLinks[index]})`;
     
     
     

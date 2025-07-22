@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    font-size: 10px;
+    font-size: 15px;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -19,7 +19,7 @@
 .main-text {
     top: 120px;
     left: 50px;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .special-msg {
@@ -37,7 +37,7 @@
 .imgs img {
     width: 10%;
     height: 5%;
-    transition: all 1s;
+    transition: all 0.5s;
 }
 
 .imgs img:hover {
