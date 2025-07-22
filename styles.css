@@ -18,9 +18,7 @@
     position: absolute;
     width: fit-content;
 }
-.special-msg{
-    background-color: rgba(121, 118, 118, 0.3)
-}
+
 .main-text {
     top: 120px;
     left: 50px;
@@ -37,6 +35,7 @@
     height: 300px;
     overflow: auto;
     scroll-behavior: smooth;
+    background-color: rgba(121, 118, 118, 0.3)
 }
 
 .imgs {
